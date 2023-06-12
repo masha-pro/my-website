@@ -6,7 +6,7 @@
 
 body {
   font-family: "Manrope", sans-serif;
-  margin-top: 70px;
+  margin: 100px auto 50px;
 }
 
 h1,
@@ -41,8 +41,12 @@ img {
   background: #d32f27;
 }
 
-.project-images {
-  margin: 30px auto;
+.netflix-image {
+  margin-bottom: 20px;
+}
+
+.weather-image {
+  margin-top: 20px;
 }
 
 .project-description {
@@ -64,6 +68,10 @@ img {
 .navigation-buttons a {
   margin: 20px;
 }
+
+.row {
+    margin-top: 30px;
+  }
 
 .primary-link {
   background-color: var(--primary-color);
@@ -112,4 +120,34 @@ img {
 .email-link:hover {
   text-decoration: underline;
   transition: ease-in-out 215ms;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .navigation-buttons {
+    margin-top: 0;
+  }
+  .project-description {
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  .navigation-buttons a {
+    font-size: 14px;
+    padding: 5px 10px
+  }
+  .primary-link, .secondary-link {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 0;
+  }
 }
