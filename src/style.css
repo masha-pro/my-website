@@ -108,6 +108,10 @@ img {
   margin: 20px 0;
 }
 
+#contact-section {
+  margin-top: 20px;
+}
+
 .email-link {
   font-size: 24px;
   color: var(--primary-color);
@@ -130,7 +134,7 @@ img {
     font-size: 32px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
   }
   .navigation-buttons {
@@ -150,5 +154,9 @@ img {
     font-size: 14px;
     padding: 10px 15px;
     margin: 0;
+  }
+  .about-paragraph {
+    font-size: 18px;
+    margin: 10px auto 0;
   }
 }
